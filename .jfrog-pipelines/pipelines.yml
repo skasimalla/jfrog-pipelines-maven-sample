@@ -27,7 +27,7 @@ pipelines:
           deployerSnapshotRepo: {{ .Values.deployerRepo }}
           deployerReleaseRepo: {{ .Values.deployerRepo }}
           inputResources:
-            - name: mvn_repo
+            - name: mvn_repo1
             - name: cron_trigger_mvn
           integrations:
             - name: {{ .Values.artifactory }}
@@ -39,4 +39,4 @@ pipelines:
           inputSteps:
             - name: mvn_build_step
           outputResources:
-            - name: mvn_build_info
+            - name: mvn_build_info1
