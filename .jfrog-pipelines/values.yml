@@ -1,4 +1,4 @@
-gitProvider: sam1
-artifactory: myArtifactory
+gitProvider: github_1
+artifactory: arti_1
 repoPath: skasimalla/jfrog-pipelines-maven-sample
 deployerRepo: quickstarts-maven-local
