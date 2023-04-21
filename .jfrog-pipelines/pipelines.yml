@@ -19,7 +19,7 @@ resources:
       interval: '0 3 * * *'       
 
 pipelines:
-  - name: Maven_Quickstart
+  - name: maven_example_1
     steps:
       - name: mvn_build_step
         type: MvnBuild
